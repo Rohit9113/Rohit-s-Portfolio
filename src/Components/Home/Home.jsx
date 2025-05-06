@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { motion } from 'framer-motion';
-import Banner from '../../assets/banner1.jpg';
+// import Banner from '../../assets/banner1.jpg';
 import ContentList from './ContentList';
 
 function Home() {
@@ -9,7 +9,7 @@ function Home() {
         <>
             <div>
                 <div className="relative w-full h-[530px]">
-                    <img className="w-full h-full object-cover" src={Banner} alt="Website Banner" />
+                    {/* <img className="w-full h-full object-cover" src={Banner} alt="Website Banner" /> */}
 
                     <div className="absolute inset-0 bg-black bg-opacity-50 rounded-xl flex items-center px-10 md:px-20">
                         <motion.div
